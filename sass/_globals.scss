@@ -1,10 +1,20 @@
 @use "components";
+
 @mixin section-display {
     width: 100%;
     max-width: 996px;
     margin: auto;
     padding: 3rem;
 }
+html{
+    min-width: 100vw;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 body{
     padding:0;
@@ -38,7 +48,12 @@ body{
             font-size: 3rem;
         }
         .home-description{
-            width: 25rem;
+            width: 300px;
+        }
+        .lead-magnet{
+            .input-col {
+                max-width: 200px;
+            }
         }
     }   
 }
@@ -140,14 +155,14 @@ body{
         }
     }
 }
-
+/// Section Footer
 .sec-footer-cta{
     background-color: components.$color-footer;
     padding: 5rem;
     background-image: url("../assets/img/bg\ 1.png");
     background-repeat: no-repeat;
     background-position: 100%;
-    .footer-cta{
+    .footer- cta{
         width: 50%;
         .cta-title{
             font-size: 2rem;
@@ -157,4 +172,25 @@ body{
         }
     }
 
+}
+
+@media (max-width: 768px) {
+    .sec-benefits{
+        text-align: center;
+        padding: 0;
+        margin: 0 2 0 0;
+    }
+    
+    .sec-onboarding{
+        text-align: center;
+        .step{
+            flex-direction: column;
+        }
+    }
+    .sec-footer-cta{
+        background-image: none;
+        text-align: center;
+       
+    }
+    
 }
