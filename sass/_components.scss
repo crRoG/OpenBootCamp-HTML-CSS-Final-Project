@@ -75,25 +75,27 @@ $color-main: #0075FF;
     }
 }
 
-.feature{
+.benefit{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
-    .icon{
+    i{
         color: $color-main;
-        font-size: 10rem;
+        font-size: 5rem;
         text-align: center;
     }
 
     .description{
         .title{
-            font-size: 2rem;
+            font-size: 1.5rem;
             text-align: center;
         }
         .text{
             color: #888;
-            font-weight: 600;
+            font-weight: 400;
             text-align: center;
+            font-size: 0.8rem;
         }
 
     }
@@ -101,7 +103,7 @@ $color-main: #0075FF;
     .cta{
         margin-top: 3rem;
         color: $color-main;
-        font-weight: 600;
+        font-weight: 400;
         text-align: center;
     }
 }
@@ -123,3 +125,4 @@ $color-main: #0075FF;
         
     }
 }
+
