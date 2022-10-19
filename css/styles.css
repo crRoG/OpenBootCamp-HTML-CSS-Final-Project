@@ -111,8 +111,7 @@ body {
   height: 4rem;
   border-bottom: solid 1px #ddd;
 }
-
-.logo img {
+.nav .logo img {
   max-width: 7rem;
 }
 
@@ -120,7 +119,7 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 992px;
+  max-width: 996px;
   margin: auto;
   padding: 3rem;
 }
@@ -134,10 +133,13 @@ body {
   width: 20rem;
   font-size: 3rem;
 }
+.sec-home .home-cta .home-description {
+  width: 25rem;
+}
 
 .sec-features, .sec-benefits .intro {
   width: 100%;
-  max-width: 992px;
+  max-width: 996px;
   margin: auto;
   padding: 3rem;
   display: flex;
@@ -184,7 +186,7 @@ body {
 
 .sec-benefits {
   width: 100%;
-  max-width: 992px;
+  max-width: 996px;
   margin: auto;
   padding: 3rem;
   border-top: 1px solid #eee;
@@ -195,6 +197,10 @@ body {
 }
 
 .sec-kpis {
+  width: 100%;
+  max-width: 996px;
+  margin: auto;
+  padding: 3rem;
   width: 100%;
   background-color: #0075FF;
   color: white;
