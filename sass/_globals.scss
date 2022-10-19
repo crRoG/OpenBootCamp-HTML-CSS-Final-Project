@@ -121,3 +121,22 @@ body{
         }
     }
 }
+/// Section Onboarding
+.sec-onboarding{
+    @include section-display();
+    
+    .intro{
+    @extend .sec-features, .intro;
+    }
+    .step{
+        padding: 0 2rem 5rem 2rem;
+        margin: 0 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .step-separator{
+            flex:1;
+            border-top: 2px solid #ddd
+        }
+    }
+}

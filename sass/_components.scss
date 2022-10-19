@@ -108,21 +108,20 @@ $color-main: #0075FF;
     }
 }
 
-.icon-desc{
+.icon-desc {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    .icon{
-        padding: 0;
+    justify-content:center;
+    i {
         color: $color-main;
         font-size: 10rem;
+        padding: 0;
     }
-    .title{
-        margin-top: -2rem;
+    .title {
+        margin-top: -1rem;
         font-size: 1.5rem;
         font-weight: 600;
-        
     }
 }
 
